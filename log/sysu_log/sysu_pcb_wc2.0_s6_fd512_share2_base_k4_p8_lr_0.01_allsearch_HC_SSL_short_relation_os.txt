@@ -1,0 +1,16 @@
+==========
+Args:Namespace(arch='resnet50', batch_size=8, dataset='sysu', gpu='0', img_h=288, img_w=144, label_smooth='on', local_feat_dim=512, log_path='log/', lr=0.01, margin=0.3, method='base', mode='all', model_path='save_model/', num_pos=4, num_strips=6, optim='sgd', pcb='on', re_rank='k_reciprocal', resume='', save_epoch=100, seed=0, share_net=2, test_batch=64, test_only=False, trial=2, vis_log_path='log/vis_log/', w_center=2.0, workers=0)
+==========
+==> Loading data..
+Dataset sysu statistics:
+  ------------------------------
+  subset   | # ids | # images
+  ------------------------------
+  visible  |   395 |    22258
+  thermal  |   395 |    11909
+  ------------------------------
+  query    |    96 |     3803
+  gallery  |    96 |      301
+  ------------------------------
+Data Loading Time:	 9.026
+==> Building model..
